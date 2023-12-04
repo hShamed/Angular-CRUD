@@ -1,0 +1,39 @@
+.banner {
+    width: 15%;
+    margin: 10px auto;
+}
+
+.navbar {
+    width: 50%;
+    height: 28px;
+    margin: 10px auto;
+    padding: 20px 20px;
+    border-radius: 15px;
+    background: rgb(58,61,180);
+    background: linear-gradient(270deg, rgba(58,61,180,1) 0%, rgba(131,58,180,1) 35%, rgba(237,23,23,1) 100%); 
+    color: #ffffff;
+}
+
+.navbar p {
+    display: inline;
+    position: relative;
+    left: 45%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sections {
+    display: flex;
+    width: 95%;
+    height: 700px;
+    margin: 20px auto;
+    align-items: center;
+    background-color: black;
+}
+
+.section {
+    width: 45%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: rgb(205, 13, 13);
+}
