@@ -1,0 +1,33 @@
+.employeeContainer {
+    padding: 10px 20px;
+    color: #171717;
+    background: rgba(230,226,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(230,226,255,0.25);
+    border-radius: 10px;
+}
+
+.idCircle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.idCircle b {
+    position: relative;
+    left: 15px;
+    top: 10px;
+    font-weight: bolder;
+}
+
+.employeeContainer p {
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+    top: 10px;
+    text-shadow: 0 0 5px #484848;
+    color: white;
+}
