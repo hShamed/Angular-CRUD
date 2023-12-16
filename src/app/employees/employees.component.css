@@ -1,4 +1,5 @@
 .employeeContainer {
+    margin-bottom: 10px;
     padding: 10px 20px;
     color: #171717;
     background: rgba(230,226,255,0.5);
@@ -6,6 +7,10 @@
     backdrop-filter: blur(10px);
     border: 1px solid rgba(230,226,255,0.25);
     border-radius: 10px;
+}
+
+.employeeContainer:hover {
+    background: rgba(230,226,255,0.6);
 }
 
 .idCircle {

@@ -1,6 +1,8 @@
-<div class="employeeContainer">
-    <div class="idCircle">
-        <b>1</b>
+@for (employee of employeesArray; track employee.id) {
+    <div class="employeeContainer">
+        <div class="idCircle">
+            <b>{{ employee.id }}</b>
+        </div>
+        <p>{{ employee.name }} - {{ employee.country }}</p>
     </div>
-    <p>Hiram Shamed Ambriz Rubio - Mexico</p>
-</div>
+}
